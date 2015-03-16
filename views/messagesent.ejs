@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>mummly</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/skeleton.css'/>
+    <link rel='stylesheet' href='/stylesheets/normalize.css'/>
+  </head>
+  <body>
+    <div class="decorativetopbar">
+    </div>
+     <div class="navbar-spacer">
+     <h1><a href="/" style="color: #FF0000;">mummly &hearts;</a></h1>
+     <p></p>
+     <div class="row">
+       Enter your mum's phone number and we'll send her a lovely message and a call, with her favourite song
+       <br>
+       <br>
+       <form action="/" method="post">
+         <input type="text" name="number">
+       </form>
+       <div class="messageSent">
+         Message sent and calling <%= number %>
+       </div>
+     </div>
+   </div>
+  </body>
+</html>
