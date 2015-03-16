@@ -7,7 +7,7 @@ http.createServer(function (req, res) {
     var resp = new twilio.TwimlResponse();
 
     resp.say("Happy Mother's Day " + app.myname)
-        .pause({ length:3 })
+        .pause({ length:5 })
         .say("Yo", {
             voice:'woman',
             language:'en-gb'
