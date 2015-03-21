@@ -41,7 +41,7 @@ app.post('/', function(req, res) {
   client.sendSms({
       to: req.body.number,
       from:'441721272014',
-      body: "Liza wants to say Happy Mother's Day! <3"
+      body: " wants to say Happy Mother's Day! <3"
   }, function(error, message) {
       if (!error) {
           console.log('Success! The SID for this SMS message is:');
@@ -103,7 +103,7 @@ app.use(function(err, req, res, next) {
     });
 });
 
-var myname = "Liza"
+var myname = "Sailesh"
 exports.myname = myname;
 console.log("sup");
 
