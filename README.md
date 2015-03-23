@@ -1,5 +1,9 @@
 # mummly
-A quick hack to send phone calls with music or personalised texts. Done as part of the Birmingham Digital Week 2015 hackathon at the BBC 
+No Mother's Day gift? Run out of money? No worry! 
+
+Mummly is a quick hack to send phone calls with music or personalised texts. 
+
+This hack was made as part of the Birmingham Digital Week 2015 hackathon at the BBC.
 
 ## How to run
 
